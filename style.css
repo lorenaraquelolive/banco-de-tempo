@@ -1,0 +1,112 @@
+@font-face {
+  font-family: Emblema;
+  src: url("./assets/Emblema.woff");
+}
+
+:root {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+h1 {
+  font-family: "Emblema", sans-serif;
+  display: block;
+  text-align: center;
+  font-size: 38px;
+  text-transform: uppercase;
+}
+
+#servicesGrid {
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.serviceCategory {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  position: relative;
+}
+.categoryImg {
+  width: 450px;
+  position: relative;
+  z-index: -1;
+  cursor: pointer;
+}
+
+.serviceInfo {
+  width: 500px;
+  height: 100px;
+  background: linear-gradient(
+    90deg,
+    rgba(159, 155, 182, 1) 0%,
+    rgba(74, 70, 122, 1) 50%
+  );
+  border-radius: 40px;
+  color: #fff;
+  text-align: center;
+  padding: 7px 40px 33px;
+  cursor: pointer;
+}
+
+.serviceTitle {
+  font-family: "Emblema", sans-serif;
+  font-size: 23px;
+  text-transform: uppercase;
+}
+
+.serviceDescription {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 14px;
+}
+
+.colorfulButton {
+  background: linear-gradient(
+    90deg,
+    rgba(159, 155, 182, 1) 0%,
+    rgba(74, 70, 122, 1) 50%
+  );
+  color: #fff;
+  border-radius: 40px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 17px;
+  padding: 10px 90px;
+  border: none;
+}
+
+.buttonArea {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.pageText {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+  color: #7277a0;
+}
+
+a {
+  color: #ca1e66;
+  text-decoration: none;
+  cursor: pointer;
+}
