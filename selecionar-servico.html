@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Categorias de Serviços - Banco de Tempo</title>
     <link rel="stylesheet" href="estilos/estilo-servico.css" />
+    <link rel="stylesheet" href="estilos/estilo-header-on.css">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -13,52 +14,80 @@
     />
   </head>
   <body>
-    <h1>selecione uma categoria para visualizar</h1>
-    <div id="servicesGrid">
-      <div class="serviceCategory">
-        <img class="categoryImg" src="./assets/image1.png" />
-        <div class="serviceInfo">
-          <h2 class="serviceTitle">aprendizados de rotina</h2>
-          <span class="serviceDescription">
-            Aprenda ou troque serviços relacionados à vida diária, como
-            culinária simples, cuidados com o cabelo, depilação, etc.
-          </span>
+      <header class="cabecalho">
+        <div class="coracao">
+            <img src="assets/Coração superior.png" alt="" class="coracao-img">
         </div>
-      </div>
-      <div class="serviceCategory">
-        <img class="categoryImg" src="./assets/image2.png" />
-        <div class="serviceInfo">
-          <h2 class="serviceTitle">passatempos</h2>
-          <span class="serviceDescription">
-            Aprenda ou troque serviços relacionados ao artesanato, produtos
-            feito à mão e serviços de manualidades.
-          </span>
+        <div class="logo">
+            <img src="assets/Logotipo.png" alt="Banco de Tempo" class="logo-img">
         </div>
-      </div>
-      <div class="serviceCategory">
-        <img class="categoryImg" src="./assets/image3.png" />
-        <div class="serviceInfo">
-          <h2 class="serviceTitle">soluções em tecnologias</h2>
-          <span class="serviceDescription">
-            Desvende os segredos da tecnologia com a ajuda das trocas de
-            serviços: aprenda ou troque serviços relacionados ao mundo digital.
-          </span>
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="pagina-inicial.html" class="nav-link">Página Inicial</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Como funciona?</a></li>
+                <li class="nav-item"><a href="selecionar-servico.html" class="nav-link">Serviços</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Regulamento</a></li>
+            </ul>
+        </nav>     
+        <div class="profile">
+            <button id="profileButton" class="button">
+                <img class="icon" src="assets/perfil.svg" alt="Ícone de perfil"> Meu Perfil
+            </button>
+            <ul id="profileDropdown" class="profile-dropdown">
+                <li class="perfil-lista"><a href="#">Meu cadastro</a></li>
+                <li class="perfil-lista"><a href="meuservico.html">Meus serviços</a></li>
+                <li class="perfil-lista"><a href="#">Minhas trocas</a></li>
+                <li class="perfil-lista"><a href="#">Favoritos</a></li>
+                <li class="perfil-lista"><a href="paginadecadastro.html">Sair</a></li>
+            </ul>
+        </div>         
+      </header>
+        <h1>selecione uma categoria para visualizar</h1>
+        <div id="servicesGrid">
+          <div class="serviceCategory">
+            <img class="categoryImg" src="./assets/image1.png" />
+            <div class="serviceInfo">
+              <h2 class="serviceTitle">aprendizados de rotina</h2>
+              <span class="serviceDescription">
+                Aprenda ou troque serviços relacionados à vida diária, como
+                culinária simples, cuidados com o cabelo, depilação, etc.
+              </span>
+            </div>
+          </div>
+          <div class="serviceCategory">
+            <img class="categoryImg" src="./assets/image2.png" />
+            <div class="serviceInfo">
+              <h2 class="serviceTitle">passatempos</h2>
+              <span class="serviceDescription">
+                Aprenda ou troque serviços relacionados ao artesanato, produtos
+                feito à mão e serviços de manualidades.
+              </span>
+            </div>
+          </div>
+          <div class="serviceCategory">
+            <img class="categoryImg" src="./assets/image3.png" />
+            <div class="serviceInfo">
+              <h2 class="serviceTitle">soluções em tecnologias</h2>
+              <span class="serviceDescription">
+                Desvende os segredos da tecnologia com a ajuda das trocas de
+                serviços: aprenda ou troque serviços relacionados ao mundo digital.
+              </span>
+            </div>
+          </div>
+          <div class="serviceCategory">
+            <img class="categoryImg" src="./assets/image4.png" />
+            <div class="serviceInfo">
+              <h2 class="serviceTitle">supervisão</h2>
+              <span class="serviceDescription">
+                Precisa de tempo para resolver problemas e não tem rede de apoio?
+                Chame alguém para cuidar do seu ente querido ou animal.
+              </span>
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="serviceCategory">
-        <img class="categoryImg" src="./assets/image4.png" />
-        <div class="serviceInfo">
-          <h2 class="serviceTitle">supervisão</h2>
-          <span class="serviceDescription">
-            Precisa de tempo para resolver problemas e não tem rede de apoio?
-            Chame alguém para cuidar do seu ente querido ou animal.
-          </span>
+        <div class="buttonArea">
+          <button class="colorfulButton">Ver todos os serviços</button>
+          <span class="pageText">Quer sugerir uma categoria nova? <a href="">Fale conosco</a>!</span>
         </div>
-      </div>
-    </div>
-    <div class="buttonArea">
-      <button class="colorfulButton">Ver todos os serviços</button>
-      <span class="pageText">Quer sugerir uma categoria nova? <a href="">Fale conosco</a>!</span>
-    </div>
   </body>
 </html>
