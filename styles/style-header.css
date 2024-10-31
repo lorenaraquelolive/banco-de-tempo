@@ -199,15 +199,13 @@ header .profile .profile-dropdown li a:hover {
 
 
 @media (max-width: 1600px) {
+  .cabecalho {
+    width: 90%;
+  }
   .nav-list {
     padding-left: 0;
   }
-  #profileButton {
-    padding: 5px;
-  }
-  .profileText {
-    display: none;
-  }
+ 
 }
 
 @media (max-width: 1200px) {
@@ -216,6 +214,12 @@ header .profile .profile-dropdown li a:hover {
   }
   .cabecalho {
     width: 85%;
+  } 
+  .profileText {
+    display: none;
+  }
+  #profileButton {
+    padding: 5px;
   }
   .nav {
     display: none;
