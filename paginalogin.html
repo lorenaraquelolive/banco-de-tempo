@@ -1,43 +1,37 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pagina De Login</title>
-    <link rel="shortcut icon" href="assets/Ampulheta.png" type="image">
-    <link rel="stylesheet" href="estilos/estilopaginalogin.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-      rel="stylesheet"
-    />
-</head>
-<body>
-    <section class="secão-login">
-        <div class="container">
-            <div class="imagem">
-                <img src="assets/Logotipo.png" alt="Banco de Tempo Logo">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Página de Login - Banco de Tempo</title>
+    <link rel="shortcut icon" href="assets/Ampulheta.png" type="image" />
+    <link rel="stylesheet" href="styles/estilopaginalogin.css" />
+    <link rel="stylesheet" href="styles/generalStyle.css" />
+  </head>
+  <body>
+    <div class="loginBackground"></div>
+    <section class="loginArea">
+        
+      <section class="secao-login"><img class="imgLogoLogin" src="./assets/Logotipo.png">
+        <div class="formulario-login">
+          <h1>FAÇA SEU LOGIN</h1>
+          <p>Para visualizar e trocar seus serviços</p>
+          <form>
+            <input type="text" placeholder="Insira seu login aqui" />
+            <input type="password" placeholder="Insira sua senha aqui" />
+            <div class="forgot-links">
+              <span class="highlight"><a href="#">Esqueci meu login</a></span> |
+              <a href="#">Esqueci minha senha</a>
             </div>
-            <div class="formulario-login">
-                <h2>FAÇA SEU LOGIN</h2>
-                <p>Para visualizar e trocar seus serviços</p>
-                <form>
-                    <input type="text" placeholder="Insira seu login aqui">
-                    <input type="password" placeholder="Insira sua senha aqui">
-                    <div class="forgot-links">
-                        <a href="#">Esqueci meu login</a> | <a href="#">Esqueci minha senha</a>
-                        
-                    </div>
-                    <button type="submit" class="btn-entrar">Entrar</button>
-                </form>
-                <div class="cadastro">
-                    <p>Ainda não tem conta?</p>
-                    
-                    <a href="paginadecadastro.html" class="button">Cadastre-se</a>
-                </div>
-            </div>
+            <button type="submit" class="btn-entrar">Entrar</button>
+          </form>
+          <div class="cadastro">
+           <h2>Ainda não tem conta?</h2>
+
+            <button class="pinkButton"><a href="paginadecadastro.html">Cadastre-se</a></button>
+          </div>
         </div>
+      </section>
     </section>
-</body>
+  </body>
 </html>

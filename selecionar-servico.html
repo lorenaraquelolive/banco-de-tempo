@@ -4,17 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Categorias de Serviços - Banco de Tempo</title>
-    <link rel="stylesheet" href="estilos/estilo-servico.css" />
-    <link rel="stylesheet" href="estilos/estilo-header-on.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="stylesheet" href="styles/estilo-servico.css" />
+    <link rel="stylesheet" href="styles/style-header.css">
+    <link rel="stylesheet" href="styles/generalStyle.css">
   </head>
   <body>
-      <header class="cabecalho">
+   
+      <header class="cabecalho"> 
         <div class="coracao">
             <img src="assets/Coração superior.png" alt="" class="coracao-img">
         </div>
@@ -28,10 +24,22 @@
                 <li class="nav-item"><a href="selecionar-servico.html" class="nav-link">Serviços</a></li>
                 <li class="nav-item"><a href="#" class="nav-link">Regulamento</a></li>
             </ul>
-        </nav>     
+        </nav>
+        <div class="profile menuMobileButton">
+            <button id="profileButton" class="button ">
+                <span class="buttonText">Menu</span>
+            </button>
+            <ul id="profileDropdown" class="profile-dropdown menuDropdown">
+                <li class="perfil-lista"><a href="pagina-inicial.html" class="nav-link">Página Inicial</a></li>
+                <li class="perfil-lista"><a href="#" class="nav-link">Como funciona?</a></li>
+                <li class="perfil-lista"><a href="selecionar-servico.html" class="nav-link">Serviços</a></li>
+                <li class="perfil-lista"><a href="#" class="nav-link">Regulamento</a></li>
+            
+            </ul>
+        </div>       
         <div class="profile">
             <button id="profileButton" class="button">
-                <img class="icon" src="assets/perfil.svg" alt="Ícone de perfil"> Meu Perfil
+                <img class="icon" src="assets/perfil.svg" alt="Ícone de perfil"> <span class="profileText">Meu Perfil</span>
             </button>
             <ul id="profileDropdown" class="profile-dropdown">
                 <li class="perfil-lista"><a href="#">Meu cadastro</a></li>
@@ -41,7 +49,8 @@
                 <li class="perfil-lista"><a href="paginadecadastro.html">Sair</a></li>
             </ul>
         </div>         
-      </header>
+    </header>
+    <main>
         <h1>selecione uma categoria para visualizar</h1>
         <div id="servicesGrid">
           <div class="serviceCategory">
@@ -87,9 +96,24 @@
         </div>
         <div class="buttonArea">
           <a href="todos-servicos.html">
-            <button class="colorfulButton">Ver todos os serviços</button>
+            <button>Ver todos os serviços</button>
           </a>
           <span class="pageText">Quer sugerir uma categoria nova? <a href="">Fale conosco</a>!</span>
         </div>
+      </main>
+      <footer>
+        <div class="footer-content">
+            <img src="assets/Logotipo.png" alt="Logo Banco de Tempo">
+            <p>Banco de Tempo - Projeto do TCC Mulheres in Tech - Turma 13 - 2024</p>
+            <BR>
+            <p><span class="highlight">Equipe de Desenvolvimento:</span><P> 
+                </P>Ana Beatriz - <a href="https://github.com/CarlaSa-Carla" rel="nofollow">Carla</a> - <a href="https://github.com/lorenaraquelolive" rel="nofollow">Lorena</a> - <a href="https://storyset.com/" rel="nofollow">Malunari</a> - Marilu - Nicole</p>
+            <p><span class="highlight">Design gráfico:</span></p>
+            <a href="https://www.behance.net/malunaris" rel="nofollow">Malunari Design Gráfico</a> - <a href="https://storyset.com/" rel="nofollow">StorySet</a> - <a href="https://www.freepik.com/" rel="nofollow">Freepik</a></p>
+        </div>
+        <div class="footer-bottom">
+            &copy; 2024 Banco do Tempo | Todos os direitos reservados
+        </div>
+    </footer>
   </body>
 </html>

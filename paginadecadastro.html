@@ -3,21 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro-BancoDoTempo</title>
+    <title>Faça seu cadastro - Banco de Tempo</title>
     <link rel="shortcut icon" href="assets/Ampulheta.png" type="image">
-    <link rel="stylesheet" href="estilos/estilodepagindecadastro.css">
+    <link rel="stylesheet" href="styles/estilodepagindecadastro.css">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="styles/style-header.css">
+    <link rel="stylesheet" href="styles/generalStyle.css">
 </head>
 <body>
+    <header class="cabecalho">
+        <div class="coracao">
+            <img src="assets/Coração superior.png" alt="" class="coracao-img">
+        </div>
+        <div class="logo">
+            <img src="assets/Logotipo.png" alt="Banco de Tempo" class="logo-img">
+        </div>
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="pagina-inicial.html" class="nav-link">Página Inicial</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Como funciona?</a></li>
+                <li class="nav-item"><a href="selecionar-servico.html" class="nav-link">Serviços</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Regulamento</a></li>
+            </ul>
+        </nav>
+        <div class="profile menuMobileButton">
+            <button id="profileButton" class="button ">
+                <span class="buttonText">Menu</span>
+            </button>
+            <ul id="profileDropdown" class="profile-dropdown menuDropdown">
+                <li class="perfil-lista"><a href="pagina-inicial.html" class="nav-link">Página Inicial</a></li>
+                <li class="perfil-lista"><a href="#" class="nav-link">Como funciona?</a></li>
+                <li class="perfil-lista"><a href="selecionar-servico.html" class="nav-link">Serviços</a></li>
+                <li class="perfil-lista"><a href="#" class="nav-link">Regulamento</a></li>
+            
+            </ul>
+        </div>       
+        <div class="user-actions">
+            <img class="icon" src="assets/Ícone de Cadastrar.png" alt="Ícone de login">
+            <a href="paginadecadastro.html" class="button profileText">Cadastrar</a> <span class="profileText"> | </span>
+            <a href="paginalogin.html" class="button profileText">Fazer Login</a>
+        </div>       
+    </header>
+    <main>
     <section class="crie-sua-conta">
-        <div class="container">
+        
             <div class="image">
-                <img src="assets/imagem pagina de cadastro.JPG" alt="Ilustração de uma pessoa">
+                <img class="signupImage" src="assets/imagem pagina de cadastro.JPG" alt="Ilustração de uma pessoa">
             </div>
             <div class="formulario">
                 <h1>Crie Sua Conta</h1>
@@ -25,8 +61,8 @@
                 <form>
                     <input type="text" placeholder="Seu nome completo">
                     <input type="email" placeholder="Seu melhor e-mail">
-                    <small>Você usará este e-mail para fazer login!</small>
-                    <h2>Sua data de nascimento</h2>
+                    <span class="detailText">Você usará este e-mail para fazer login!</span>
+                    <span class="formTextTitles">Sua data de nascimento</span>
                     <div class="data-nascimento">
                         <input type="text" placeholder="Dia">
                         <input type="text" placeholder="Mês">
@@ -34,16 +70,17 @@
                     </div>
                 </form>
             </div>
-        </div>
+        
     </section>
     <section class="formulario-cadastro">
-        <div class="container">
-            <form>
+        
+            <form class="secondForm">
                 <div class="linha">
-                    <input type="text" placeholder="Sua cidade">
-                    <input type="text" placeholder="Seu estado">
-                    <input type="text" placeholder="CEP">
+                   <div class="formOption"><span class="formTextTitles">Qual sua cidade?</span><input type="text" placeholder="Sua cidade"></div>
+                   <div class="formOption"><span class="formTextTitles">Qual o seu estado?</span><input type="text" placeholder="Seu estado"></div>
+                    <div class="formOption"><span class="formTextTitles">Digite o seu CEP</span><input type="text" placeholder="CEP"></div>
                 </div>
+                <span class="formTextTitles">Queremos saber mais sobre você! Conte mais alguns detalhes sobre quem você é!</span>
                 <textarea placeholder="Conte um pouco mais sobre você"></textarea>
                 <div class="linha senha">
                     <input type="password" placeholder="Sua senha">
@@ -55,23 +92,25 @@
                     <label for="termos">Declaro que li e concordo com o <a href="https://bancodetempo.pt/wp-content/uploads/2020/10/regulamento.pdf" class="highlight" target="_blank">regulamento</a></label>
                    
                 </div>
-                <button class="botao-cadastrar">Enviar para análise</button>
+                <button class="sendtoAnalysis">Enviar para análise</button>
             </form>
-        </div>
+        
     </section>
-    <footer class="footer">
-        <div class="footer-content">
-            <img src="assets/Logotipo.png" alt="Logo Banco de Tempo">
-            <p>Banco de Tempo - Projeto do TDC Mulheres in Tech - Turma 13 - 2024</p>
-            <p><span class="highlight">Equipe de Desenvolvimento:</span><P> 
-                </P>Ana Beatriz - Carlos - Lorena - Maikumi - Marilu - Nicole</p>
-            <p><span class="highlight">Design gráfico:</span></p>
-                 Maikumi Design Gráfico - StorySet - Freepik</p>
-        </div>
-        <div class="footer-bottom">
-            &copy; 2024 Banco do Tempo | Todos os direitos reservados
-        </div>
-    </footer>
+</main>
+<footer>
+    <div class="footer-content">
+        <img src="assets/Logotipo.png" alt="Logo Banco de Tempo">
+        <p>Banco de Tempo - Projeto do TCC Mulheres in Tech - Turma 13 - 2024</p>
+        <BR>
+        <p><span class="highlight">Equipe de Desenvolvimento:</span><P> 
+            </P>Ana Beatriz - <a href="https://github.com/CarlaSa-Carla" rel="nofollow">Carla</a> - <a href="https://github.com/lorenaraquelolive" rel="nofollow">Lorena</a> - <a href="https://storyset.com/" rel="nofollow">Malunari</a> - Marilu - Nicole</p>
+        <p><span class="highlight">Design gráfico:</span></p>
+        <a href="https://www.behance.net/malunaris" rel="nofollow">Malunari Design Gráfico</a> - <a href="https://storyset.com/" rel="nofollow">StorySet</a> - <a href="https://www.freepik.com/" rel="nofollow">Freepik</a></p>
+    </div>
+    <div class="footer-bottom">
+        &copy; 2024 Banco do Tempo | Todos os direitos reservados
+    </div>
+</footer>
 </body>
 </html>
 

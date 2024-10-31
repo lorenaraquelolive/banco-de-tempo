@@ -1,0 +1,119 @@
+.fullScreen {
+  height: 100%;
+}
+
+.loginBackground {
+  width: 100vw;
+  height: 100vh;
+  background: url("../assets/fundoLogin.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: contain;
+  left: 0;
+  top: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+.loginArea {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.secao-login {
+  width: 40%;
+  margin-right: 10%;
+}
+
+.imgLogoLogin {
+  height: 130px;
+  display: none;
+}
+
+.formulario-login {
+  flex: 1;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+form {
+  width: 100%;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #4a4a8a;
+  border-radius: 25px;
+  margin-bottom: 15px;
+}
+
+.forgot-links {
+  margin-bottom: 20px;
+}
+
+.btn-entrar {
+  width: 100%;
+  padding: 10px;
+  margin: 20px;
+  background-color: #4a4a8a;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+.btn-entrar:hover {
+  background-color: #3a3a6a;
+}
+
+.cadastro {
+  text-align: center;
+  width: 100%;
+  margin-top: 70px;
+}
+
+@media (max-width: 1400px) {
+  .secao-login {
+    margin-right: 5%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .imgLogoLogin {
+    display: block;
+  }
+  .loginBackground {
+    width: 100vw;
+    height: 100vh;
+    background: url("../assets/fundoLogin2.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    top: -500px;
+    position: absolute;
+    z-index: -1;
+  }
+  .secao-login {
+    width: 100%;
+    margin-right: 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  p,
+  .forgot-links {
+    text-align: center;
+  }
+}

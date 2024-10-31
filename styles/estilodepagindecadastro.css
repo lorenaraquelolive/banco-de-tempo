@@ -1,0 +1,168 @@
+.crie-sua-conta {
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+  gap: 50px;
+  justify-content: space-between;
+}
+.signupImage {
+  max-width: 90%;
+  height: auto;
+}
+
+.formulario {
+  flex: 1;
+  padding: 20px;
+}
+
+.formulario p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.secondForm {
+  justify-content: center;
+  align-items: center;
+}
+
+input[type="text"],
+input[type="email"] {
+  border: 2px solid var(--cor-primaria);
+  border-radius: 25px;
+  padding: 10px;
+  margin-bottom: 15px;
+  font-size: 1em;
+}
+
+.detailText {
+  font-size: 11px;
+  margin-bottom: 50px;
+}
+
+.formTextTitles {
+  font-size: 15px;
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+.data-nascimento {
+  display: flex;
+  gap: 10px;
+}
+
+.data-nascimento input {
+  flex: 1;
+}
+
+.formulario-cadastro {
+  margin-top: 50px;
+}
+
+.formOption {
+  width: 33%;
+}
+
+.linha {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.senha {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input[type="text"],
+textarea {
+  border: 2px solid #4a4a8a;
+  border-radius: 25px;
+  padding: 10px;
+  font-size: 1em;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+input[type="password"] {
+  width: 100%;
+  max-width: 300px;
+  border: 2px solid #4a4a8a;
+  border-radius: 25px;
+  padding: 10px;
+  font-size: 1em;
+  box-sizing: border-box;
+}
+
+textarea {
+  height: 100px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.checkbox input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.linha.senha {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+input[type="password"] {
+  width: 45%;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.checkbox input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+@media (max-width: 1200px) {
+  .crie-sua-conta {
+    flex-direction: column;
+  }
+  .formulario p {
+    text-align: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .formulario {
+    padding: 0;
+  }
+  .formTextTitles {
+    font-size: 11px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 400px) {
+  .formTextTitles {
+    font-size: 8px;
+  }
+}

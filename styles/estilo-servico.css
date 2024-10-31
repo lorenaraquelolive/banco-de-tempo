@@ -1,41 +1,18 @@
-@font-face {
-  font-family: Emblema;
-  src: url("../assets/Emblema.woff");
-}
-
-:root {
-  box-sizing: border-box;
-}
-
-body {
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
+main {
   align-items: center;
-  justify-content: center;
-  gap: 40px;
 }
-
-h1 {
-  font-family: "Emblema", sans-serif;
-  display: block;
-  text-align: center;
-  font-size: 38px;
-  text-transform: uppercase;
-}
-
 #servicesGrid {
-  width: 70%;
+  width: 90%;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   gap: 50px;
+  margin: 30px 0;
 }
 
 .serviceCategory {
-  width: 600px;
+  width: 40%;
   display: flex;
   flex-direction: column;
   justify-content: end;
@@ -43,15 +20,14 @@ h1 {
   position: relative;
 }
 .categoryImg {
-  width: 450px;
+  width: 100%;
   position: relative;
   z-index: -1;
   cursor: pointer;
 }
 
 .serviceInfo {
-  width: 500px;
-  height: 100px;
+  width: 100%;
   background: linear-gradient(
     90deg,
     rgba(159, 155, 182, 1) 0%,
@@ -60,7 +36,7 @@ h1 {
   border-radius: 40px;
   color: #fff;
   text-align: center;
-  padding: 7px 40px 33px;
+  padding: 20px 15px 33px;
   cursor: pointer;
 }
 
@@ -77,22 +53,6 @@ h1 {
   font-size: 14px;
 }
 
-.colorfulButton {
-  background: linear-gradient(
-    90deg,
-    rgba(159, 155, 182, 1) 0%,
-    rgba(74, 70, 122, 1) 50%
-  );
-  color: #fff;
-  border-radius: 40px;
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
-  font-size: 17px;
-  padding: 10px 90px;
-  border: none;
-  cursor: pointer;
-}
-
 .buttonArea {
   display: flex;
   flex-direction: column;
@@ -107,8 +67,21 @@ h1 {
   color: #7277a0;
 }
 
-a {
-  color: #ca1e66;
-  text-decoration: none;
-  cursor: pointer;
+@media (max-width: 1200px) {
+  #servicesGrid {
+    width: 100%;
+  }
+  .serviceCategory {
+    width: 45%;
+  }
+}
+
+@media (max-width: 900px) {
+  #servicesGrid {
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+  .serviceCategory {
+    width: 95%;
+  }
 }
