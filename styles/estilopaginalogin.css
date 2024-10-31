@@ -101,7 +101,7 @@ input[type="password"] {
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
-    top: -500px;
+    top: -660px;
     position: absolute;
     z-index: -1;
   }
