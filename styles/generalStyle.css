@@ -46,12 +46,14 @@ h1 {
   font-size: 40px;
   text-transform: uppercase;
   line-height: 45px;
+  cursor: default;
 }
 
 h2 {
   font-size: 2rem;
   margin-bottom: 20px;
   font-family: "Emblema", sans-serif;
+  cursor: default;
 }
 
 footer {
@@ -90,6 +92,7 @@ button a {
 .highlight {
   color: #ff69b4;
   text-decoration: none;
+  cursor: default;
 }
 
 .highlight a:hover {
