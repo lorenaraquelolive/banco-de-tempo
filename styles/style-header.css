@@ -115,8 +115,9 @@
   transition: background 0.3s ease;
   text-align: center;
 }
+
 .icon {
-  width: 2em;
+  width: 50px;
 }
 
 header .profile {
@@ -141,6 +142,7 @@ header .profile .profile-dropdown {
   border: 1px solid #ccc;
   border-radius: 5px;
   width: 150px;
+  z-index: 9;
 }
 
 header .profile:hover .profile-dropdown {
@@ -170,7 +172,7 @@ header .profile .profile-dropdown li a:hover {
 .user-actions {
   display: inline-flex;
   align-items: center;
-  background: linear-gradient(to right, #4d5487, #4a467a); 
+  background: linear-gradient(to right, #4d5487, #4a467a);
   border-radius: 50px;
   padding: 10px;
   color: white;
@@ -184,20 +186,19 @@ header .profile .profile-dropdown li a:hover {
   background: linear-gradient(to right, #4d5487, #4a467a);
   color: white;
   text-decoration: none;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 14px;
   margin: 0 10px;
-  padding: 5px 10px; 
-  border-radius: 50px; 
-  transition: background 0.3s ease; 
+  padding: 5px 10px;
+  border-radius: 50px;
+  transition: background 0.3s ease;
 }
 
 .button:hover {
   text-decoration: none;
-  background: linear-gradient(to right, #4a467a, #4d5487); 
+  background: linear-gradient(to right, #4a467a, #4d5487);
 }
-
 
 @media (max-width: 1600px) {
   .cabecalho {
@@ -206,7 +207,6 @@ header .profile .profile-dropdown li a:hover {
   .nav-list {
     padding-left: 0;
   }
- 
 }
 
 @media (max-width: 1200px) {
@@ -215,7 +215,7 @@ header .profile .profile-dropdown li a:hover {
   }
   .cabecalho {
     width: 85%;
-  } 
+  }
   .profileText {
     display: none;
   }

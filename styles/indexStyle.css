@@ -451,6 +451,12 @@
     width: 55%;
     margin-bottom: 20px;
   }
+  .hourglassIcon {
+    right: 40px;
+  }
+  .principleHeart {
+    right: -110px;
+  }
   .howItWorksSubtitle {
     width: 90%;
   }
@@ -501,5 +507,6 @@
   .signupTitle,
   .howitWorksTitle {
     padding: 0 30px;
+    line-height: 40px;
   }
 }
