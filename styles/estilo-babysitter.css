@@ -1,0 +1,161 @@
+/* Banco de Tempo*/
+/*Página Baby Sister*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  color: #333;
+  overflow-x: hidden;
+}
+
+.imagem-coracao {
+  position: absolute;
+  width: 209px;
+  height: 242px;
+  top: -7px;
+  left: -44px;
+  background: url('coracao.png') no-repeat center center;
+  background-size: contain;
+}
+
+.imagem-ampulheta {
+  position: absolute;
+  width: 374px;
+  height: 192px;
+  top: 95px;
+  left: 235px;
+  background: url('ampulheta.png') no-repeat center center;
+  background-size: contain;
+}
+
+nav {
+  background-color: #fff;
+  padding: 1rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 100px;
+  z-index: 1;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li {
+  position: relative;
+}
+
+nav ul li:last-child {
+  background: #4B477A;
+  width: 488px;
+  height: 70px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+
+nav ul li:last-child a {
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+nav ul li a {
+  color: #333;
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: color 0.3s;
+}
+
+nav ul li .icon {
+  width: 54px;
+  height: 53px;
+  background: url('icon.png') no-repeat center center;
+  background-size: contain;
+  margin-right: 5px;
+}
+
+section {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 30px;
+}
+
+.imagem-luana {
+  width: 946px;
+  height: 621px;
+  background: url('luana.png') no-repeat center center;
+  background-size: contain;
+  margin-right: 20px;
+}
+
+section p {
+  width: 960px;
+  height: 154px;
+}
+
+.texto-baby-sister {
+  position: absolute;
+  width: 960px;
+  height: 154px;
+  top: 527px;
+  left: 1212px;
+  opacity: 1;
+  font-size: 24px;
+  color: #333;
+}
+
+.avaliacao {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.avaliacao-imagem {
+  width: 1940px;
+  height: 179px;
+}
+
+.secao-avaliacoes {
+  margin-top: 40px;
+  background-color: #CB1F67;
+  padding: 20px;
+  color: #fff;
+  text-align: center;
+}
+
+.trocar-servico {
+  width: 945px;
+  height: 93px;
+  background: #4B477A;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+  opacity: 1;
+  color: #fff;
+  font-size: 24px;
+  text-align: center;
+}
+
+.imagem-descricao {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+.desc-imagem {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+}
+
