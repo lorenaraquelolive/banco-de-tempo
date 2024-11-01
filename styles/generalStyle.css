@@ -26,7 +26,6 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 40px;
 }
 
 main {
@@ -93,7 +92,7 @@ button a {
   text-decoration: none;
 }
 
-.highlight:hover {
+.highlight a:hover {
   text-decoration: underline;
 }
 

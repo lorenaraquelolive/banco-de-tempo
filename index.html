@@ -1,49 +1,208 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/x-icon" href="./assets/favicon.ico" />
-    <link rel="stylesheet" href="styles/style-header.css">
-    <link rel="stylesheet" href="styles/generalStyle.css">
+    <link rel="stylesheet" href="styles/style-header.css" />
+    <link rel="stylesheet" href="styles/generalStyle.css" />
+    <link rel="stylesheet" href="styles/indexStyle.css" />
     <title>Banco de Tempo - Troque o seu tempo por tempo</title>
-</head>
-<body>
+  </head>
+  <body>
     <header class="cabecalho">
-        <div class="coracao">
-            <img src="assets/Coração superior.png" alt="" class="coracao-img">
-        </div>
-        <div class="logo">
-            <img src="assets/Logotipo.png" alt="Banco de Tempo" class="logo-img">
-        </div>
-        <nav class="nav">
-            <ul class="nav-list">
-                <li class="nav-item"><a href="pagina-inicial.html" class="nav-link">Página Inicial</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Como funciona?</a></li>
-                <li class="nav-item"><a href="selecionar-servico.html" class="nav-link">Serviços</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Regulamento</a></li>
-            </ul>
-        </nav>
-        <div class="profile menuMobileButton">
-            <button id="profileButton" class="button ">
-                <span class="buttonText">Menu</span>
-            </button>
-            <ul id="profileDropdown" class="profile-dropdown menuDropdown">
-                <li class="perfil-lista"><a href="pagina-inicial.html" class="nav-link">Página Inicial</a></li>
-                <li class="perfil-lista"><a href="#" class="nav-link">Como funciona?</a></li>
-                <li class="perfil-lista"><a href="selecionar-servico.html" class="nav-link">Serviços</a></li>
-                <li class="perfil-lista"><a href="#" class="nav-link">Regulamento</a></li>
-            
-            </ul>
-        </div>       
-        <div class="user-actions">
-            <img class="icon" src="assets/Ícone de Cadastrar.png" alt="Ícone de login">
-            <a href="paginadecadastro.html" class="button profileText">Cadastrar</a> <span class="profileText"> | </span>
-            <a href="paginalogin.html" class="button profileText">Fazer Login</a>
-        </div>       
+      <div class="coracao">
+        <img src="assets/Coração superior.png" alt="" class="coracao-img" />
+      </div>
+      <div class="logo">
+        <img src="assets/Logotipo.png" alt="Banco de Tempo" class="logo-img" />
+      </div>
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="pagina-inicial.html" class="nav-link">Página Inicial</a>
+          </li>
+          <li class="nav-item">
+            <a href="#howItWorks" class="nav-link">Como funciona?</a>
+          </li>
+          <li class="nav-item">
+            <a href="selecionar-servico.html" class="nav-link">Serviços</a>
+          </li>
+          <li class="nav-item"><a href="#" class="nav-link">Regulamento</a></li>
+        </ul>
+      </nav>
+      <div class="profile menuMobileButton">
+        <button id="profileButton" class="button">
+          <span class="buttonText">Menu</span>
+        </button>
+        <ul id="profileDropdown" class="profile-dropdown menuDropdown">
+          <li class="perfil-lista">
+            <a href="pagina-inicial.html" class="nav-link">Página Inicial</a>
+          </li>
+          <li class="perfil-lista">
+            <a href="#" class="nav-link">Como funciona?</a>
+          </li>
+          <li class="perfil-lista">
+            <a href="selecionar-servico.html" class="nav-link">Serviços</a>
+          </li>
+          <li class="perfil-lista">
+            <a href="#" class="nav-link">Regulamento</a>
+          </li>
+        </ul>
+      </div>
+      <div class="user-actions">
+        <img
+          class="icon"
+          src="assets/Ícone de Cadastrar.png"
+          alt="Ícone de login"
+        />
+        <a href="paginadecadastro.html" class="button profileText">Cadastrar</a>
+        <span class="profileText"> | </span>
+        <a href="paginalogin.html" class="button profileText">Fazer Login</a>
+      </div>
     </header>
-    <main>
-        EM BREVE!!
-    </main>
-</body>
+
+    <section id="heroSection">
+      <div class="contentText">
+        <h3 class="indexSubtitle">
+          Dentro de cada <span class="highlight">alguém</span>
+        </h3>
+        <h1 class="indexTitle">
+          existe um talento esperando para ser descoberto
+        </h1>
+        <hr class="divider" />
+        <h4 class="indexDescription">
+          E agora você pode trocá-lo pelo talento de um outro alguém em um
+          sistema de economia solidária que pode fazer a diferença na vida das
+          pessoas.
+        </h4>
+      </div>
+
+      <img
+        src="./assets/heroImage.png"
+        class="heroImage"
+        alt="imagem de duas pessoas segurando corações em solidariedade"
+      />
+
+      <img src="./assets/Ampulheta.png" class="hourglassIcon" />
+      <div class="socialArea">
+        <img src="assets/twitterIcon.png" class="socialIcons" />
+        <img src="assets/facebookIcon.png" class="socialIcons facebook" />
+        <img src="assets/instagramIcon.png" class="socialIcons" />
+        <img src="assets/youtubeIcon.png" class="socialIcons" />
+      </div>
+    </section>
+
+    <section id="howItWorks">
+      <h1 class="howitWorksTitle">Como funciona o Banco de Tempo?</h1>
+      <h3 class="howItWorksSubtitle">
+        O <span class="highlight">Banco de Tempo</span> é um sistema de trocas
+        solidárias que promove o encontro entre a oferta e a procura de serviços
+        disponibilizados pelos seus membros.
+      </h3>
+      <div class="cardsSection">
+        <div class="cardDescription">
+          <img
+            class="descriptionIcon"
+            src="./assets/personIcon.png"
+            alt="pequeno icone de uma pessoa"
+          />
+          <h3 class="HowItWorksText">
+            Cadastre os seus <span class="highlight">talentos</span> e troque
+            pelos talentos que as outras pessoas oferecem dentro da plataforma
+          </h3>
+          <img src="./assets/coracao.png" class="decorativeHeart" />
+        </div>
+        <div class="cardDescription">
+          <img
+            class="descriptionIcon"
+            src="./assets/clockIcon.png"
+            alt="pequeno icone de um relógio"
+          />
+          <h3 class="HowItWorksText">
+            No <span class="highlight">Banco de Tempo</span>, uma hora do seu
+            tempo tem o mesmo valor que uma hora de alguém talentos
+          </h3>
+        </div>
+        <div class="cardDescription">
+          <img
+            class="descriptionIcon"
+            src="./assets/teamIcon.png"
+            alt="pequeno icone de uma pessoa"
+          />
+          <h3 class="HowItWorksText">
+            Participe de uma comunidade
+            <span class="highlight">colaborativa e solidária</span> com diversos
+            serviços a oferecer talentos
+          </h3>
+        </div>
+      </div>
+      <img src="./assets/dividerPaper2.png" class="secondDivider">
+    </section>
+
+    <section id="principlesSection">
+        
+      <div class="principlesTable">
+        <img class="principlesImage" src="./assets/principlesImage.png" />
+        <div class="principlesList">
+          <h1 class="principlesTitle">Princípios</h1>
+          <div class="principle">
+            <h3 class="principlesText">
+              Troca-se tempo por tempo: o valor é medido em horas.
+            </h3>
+          </div>
+          <div class="principle">
+            <h3 class="principlesText">
+              Todas as horas valem o mesmo: nenhum serviço é mais valioso que
+              outro.
+            </h3>
+          </div>
+          <div class="principle">
+            <h3 class="principlesText">
+              Todos devem trocar: cada membro precisa dar e receber tempo.
+            </h3>
+          </div>
+          <div class="principle">
+            <h3 class="principlesText">
+              A troca não é direta: você pode receber ajuda de qualquer membro.
+            </h3>
+          </div>
+          <div class="principle">
+            <h3 class="principlesText">
+              A troca é baseada na boa vontade e na amizade: os serviços são
+              feitos com prazer e não exigem certificações ou qualificações
+              profissionais.
+            </h3>
+          </div>
+          <img src="./assets/coracao.png" class="principleHeart" />
+        </div>
+      </div>
+    </section>
+
+    <section id="signupSection">
+        <h1 class="signupTitle">
+            Troque Tempo, Ganhe Experiências!
+        </h1>
+        <h3 class="signupSubtitle">
+            Junte-se a nós e transforme suas habilidades em valiosas trocas de serviços. 
+Cadastre-se agora e comece a compartilhar o que você sabe fazer de melhor!
+        </h3>
+        <button class="signupButton">Faça seu cadastro</button>
+    </section>
+    <footer>
+        <div class="footer-content">
+            <img src="assets/Logotipo.png" alt="Logo Banco de Tempo">
+            <p>Banco de Tempo - Projeto do TCC Mulheres in Tech - Turma 13 - 2024</p>
+            <BR>
+            <p><span class="highlight">Equipe de Desenvolvimento:</span><P> 
+            </P><a href="https://github.com/AnaCatalao" rel="nofollow">Ana Beatriz</a> - <a href="https://github.com/CarlaSa-Carla" rel="nofollow">Carla</a> - <a href="https://github.com/lorenaraquelolive" rel="nofollow">Lorena</a> - <a href="https://storyset.com/" rel="nofollow">Malunari</a> - <a href="https://github.com/DouradoGB" rel="nofollow">Marilu</a> - <a href="https://github.com/nicolemelo1" rel="nofollow">Nicole</a></p>
+            <p><span class="highlight">Design gráfico:</span></p>
+            <a href="https://www.behance.net/malunaris" rel="nofollow">Malunari Design Gráfico</a> - <a href="https://storyset.com/" rel="nofollow">StorySet</a> - <a href="https://www.freepik.com/" rel="nofollow">Freepik</a></p>
+        </div>
+        <div class="footer-bottom">
+            &copy; 2024 Banco do Tempo | Todos os direitos reservados
+        </div>
+    </footer>
+    <script src="app.js"></script>
+  </body>
 </html>

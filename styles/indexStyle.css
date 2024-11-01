@@ -1,0 +1,505 @@
+#heroSection {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+#heroSection::after {
+  content: "";
+  width: 100vw;
+  height: 210px;
+  background: url(../assets/dividerPaper.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  left: 0;
+  bottom: -210px;
+  z-index: 2;
+}
+
+.contentText {
+  width: 40%;
+  padding-left: 10%;
+  background: #fff;
+  position: relative;
+}
+
+.indexSubtitle {
+  font-size: 37px;
+  font-weight: 300;
+  margin-bottom: 10px;
+  cursor: default;
+}
+
+.indexTitle {
+  width: 80%;
+  font-size: 70px;
+  line-height: 70px;
+  margin-bottom: 50px;
+  cursor: default;
+}
+
+.divider {
+  color: var(--cor-primaria);
+  background: var(--cor-primaria);
+  height: 4px;
+  margin-bottom: 40px;
+}
+
+.indexDescription {
+  width: 70%;
+  font-size: 25px;
+  line-height: 40px;
+  color: #5b5b5b;
+  font-weight: 400;
+  cursor: default;
+}
+
+.contentImage {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.heroImage {
+  width: 35%;
+  padding-right: 10%;
+}
+.socialArea {
+  background-color: #e70d67;
+  padding: 20px 20px 20px 40px;
+  border-radius: 0px 30px 30px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  position: absolute;
+  left: -25px;
+}
+
+.socialIcons {
+  height: 30px;
+  width: auto;
+  cursor: pointer;
+}
+
+.facebook {
+  width: 25px;
+  height: auto;
+}
+
+.hourglassIcon {
+  width: 120px;
+  position: absolute;
+  right: 100px;
+  bottom: -210px;
+  z-index: 3;
+}
+
+#howItWorks {
+  width: 100%;
+  height: 1000px;
+  background: url(../assets/sectionBackgroundBlue.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 70px;
+  position: relative;
+}
+
+.secondDivider {
+  width: 100%;
+  height: 150px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 2;
+  object-fit: cover;
+}
+
+.howitWorksTitle {
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+
+.howItWorksSubtitle {
+  text-align: center;
+  width: 30%;
+  font-weight: 500;
+  margin-bottom: 40px;
+}
+
+.cardsSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5%;
+}
+
+.cardDescription {
+  width: 20%;
+  background-color: #fff;
+  border-radius: 40px;
+  box-shadow: 0px 7px 51px 0px rgba(0, 0, 0, 0.18);
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 30px;
+  position: relative;
+}
+
+.decorativeHeart {
+  width: 150px;
+  position: absolute;
+  left: -60px;
+  top: -60px;
+}
+
+.descriptionIcon {
+  height: 90px;
+}
+
+.HowItWorksText {
+  width: 68%;
+  font-weight: 400;
+}
+
+#principlesSection {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding-top: 60px;
+  position: relative;
+}
+
+.principlesTable {
+  width: 100%;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  gap: 5%;
+}
+
+.principlesImage {
+  width: 40%;
+}
+
+.principlesList {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  position: relative;
+  margin-bottom: 35px;
+}
+
+.principlesTitle {
+  font-size: 70px;
+  color: var(--cor-primaria);
+  margin-bottom: 50px;
+}
+
+.principle {
+  width: 100%;
+  display: block;
+  padding: 20px 20px 20px 40px;
+  background-color: #fff;
+  border-radius: 40px;
+  box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.18);
+  cursor: default;
+}
+
+.principlesText {
+  font-weight: normal;
+}
+
+.principleHeart {
+  width: 160px;
+  position: absolute;
+  right: -90px;
+  top: -150px;
+  z-index: 3;
+}
+
+#signupSection {
+  width: 100%;
+  height: 1000px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: url(../assets/signupBackground.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  gap: 30px;
+}
+
+.signupTitle {
+  font-size: 60px;
+}
+
+.signupSubtitle {
+  width: 45%;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.signupButton {
+  font-size: 20px;
+  padding: 10px 70px;
+  margin-top: 70px;
+}
+
+@media (max-width: 1600px) {
+  .indexTitle {
+    font-size: 50px;
+    line-height: 50px;
+  }
+  .indexSubtitle {
+    font-size: 27px;
+  }
+  .indexDescription {
+    width: 90%;
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .hourglassIcon {
+    width: 90px;
+    bottom: -120px;
+  }
+
+  #howItWorks {
+    height: 800px;
+  }
+  .howitWorksTitle {
+    font-size: 40px;
+  }
+  .howItWorksSubtitle {
+    width: 60%;
+  }
+  .cardsSection {
+    gap: 2%;
+  }
+  .cardDescription {
+    width: 22%;
+  }
+  .descriptionIcon {
+    height: 60px;
+  }
+  .HowItWorksText {
+    font-size: 16px;
+  }
+
+  #signupSection {
+    height: 800px;
+  }
+  .signupTitle,
+  .principlesTitle {
+    font-size: 50px;
+  }
+  .principlesTitle {
+    margin-bottom: 30px;
+  }
+  .principlesText {
+    font-size: 17px;
+  }
+  .signupSubtitle {
+    width: 70%;
+  }
+  .signupButton {
+    margin-top: 40px;
+  }
+  #principlesSection::before {
+    top: -120px;
+  }
+  .principleHeart {
+    width: 120px;
+    right: -40px;
+    top: -40px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .indexTitle {
+    font-size: 33px;
+    line-height: 33px;
+    text-align: left;
+  }
+  .socialArea {
+    left: -30px;
+  }
+  .socialIcons {
+    height: 20px;
+  }
+  .facebook {
+    width: 14px;
+  }
+  .indexSubtitle {
+    font-size: 20px;
+  }
+  .indexDescription {
+    width: 100%;
+    font-size: 17px;
+    line-height: 25px;
+  }
+  .hourglassIcon {
+    width: 60px;
+    bottom: -90px;
+    right: 70px;
+  }
+  .cardsSection {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .cardDescription {
+    width: 80%;
+    padding: 25px;
+  }
+
+  .descriptionIcon {
+    height: auto;
+    width: 60px;
+  }
+  #howItWorks {
+    height: 1100px;
+    padding-top: 0px;
+  }
+  .howItWorksSubtitle {
+    width: 70%;
+  }
+  .HowItWorksText {
+    width: 100%;
+  }
+  .decorativeHeart {
+    width: 120px;
+  }
+  #principlesSection {
+    padding-top: 0;
+  }
+  .principlesTable {
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .principlesList {
+    width: 80%;
+  }
+  .principlesText {
+    text-align: center;
+  }
+  .signupTitle,
+  .principlesTitle {
+    font-size: 40px;
+  }
+  .signupSubtitle {
+    font-size: 19px;
+  }
+}
+
+@media (max-width: 900px) {
+  #heroSection {
+    flex-direction: column;
+    gap: 50px;
+    text-align: center;
+    padding-top: 40px;
+  }
+  .contentText {
+    width: 90%;
+    padding-left: 0;
+  }
+  .indexSubtitle {
+    font-size: 27px;
+  }
+  .indexTitle {
+    font-size: 50px;
+    line-height: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+    width: 100%;
+  }
+
+  .socialArea {
+    bottom: 50px;
+  }
+  .divider {
+    margin-bottom: 20px;
+  }
+  .heroImage {
+    padding-right: 0;
+  }
+  .signupTitle,
+  .howitWorksTitle {
+    padding: 0 10px;
+  }
+  #howItWorks {
+    height: 900px;
+  }
+}
+
+@media (max-width: 600px) {
+  .heroImage {
+    width: 55%;
+    margin-bottom: 20px;
+  }
+  .howItWorksSubtitle {
+    width: 90%;
+  }
+  .howitWorksTitle {
+    font-size: 30px;
+    line-height: 30px;
+  }
+  .howItWorksSubtitle {
+    font-size: 17px;
+  }
+  .cardDescription {
+    padding: 20px;
+  }
+  .principlesText {
+    font-size: 14px;
+  }
+  .principlesImage {
+    width: 70%;
+  }
+  .signupSubtitle {
+    width: 90%;
+  }
+}
+@media (max-width: 500px) {
+  .indexSubtitle {
+    font-size: 22px;
+  }
+  .indexTitle {
+    font-size: 33px;
+    line-height: 33px;
+  }
+  #howItWorks {
+    height: 1100px;
+  }
+  .howitWorksTitle {
+    width: 80%;
+  }
+  .howItWorksSubtitle {
+    width: 80%;
+  }
+  .principlesText {
+    font-size: 17px;
+  }
+  .principleHeart {
+    width: 80px;
+    top: -20px;
+  }
+  .signupTitle,
+  .howitWorksTitle {
+    padding: 0 30px;
+  }
+}
