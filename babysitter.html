@@ -5,97 +5,176 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Banco de Tempo</title>
     <link rel="stylesheet" href="styles/estilo-babysitter.css">
-    <link rel="stylesheet" href="styles/style-header.css">
     <link rel="stylesheet" href="styles/generalStyle.css">
+    <link rel="stylesheet" href="styles/style-header.css">
 </head>
-<body>
+<body>    
     <header class="cabecalho">
         <div class="coracao">
-            <img src="assets/Coração superior.png" alt="" class="coracao-img">
+          <img src="assets/Coração superior.png" alt="" class="coracao-img" />
         </div>
         <div class="logo">
-            <img src="assets/Logotipo.png" alt="Banco de Tempo" class="logo-img">
+          <img src="assets/Logotipo.png" alt="Banco de Tempo" class="logo-img" />
         </div>
         <nav class="nav">
-            <ul class="nav-list">
-                <li class="nav-item"><a href="pagina-inicial.html" class="nav-link">Página Inicial</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Como funciona?</a></li>
-                <li class="nav-item"><a href="selecionar-servico.html" class="nav-link">Serviços</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Regulamento</a></li>
-            </ul>
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="pagina-inicial.html" class="nav-link">Página Inicial</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Como funciona?</a>
+            </li>
+            <li class="nav-item">
+              <a href="selecionar-servico.html" class="nav-link">Serviços</a>
+            </li>
+            <li class="nav-item"><a href="#" class="nav-link">Regulamento</a></li>
+          </ul>
         </nav>
         <div class="profile menuMobileButton">
-            <button id="profileButton" class="button ">
-                <span class="buttonText">Menu</span>
-            </button>
-            <ul id="profileDropdown" class="profile-dropdown menuDropdown">
-                <li class="perfil-lista"><a href="pagina-inicial.html" class="nav-link">Página Inicial</a></li>
-                <li class="perfil-lista"><a href="#" class="nav-link">Como funciona?</a></li>
-                <li class="perfil-lista"><a href="selecionar-servico.html" class="nav-link">Serviços</a></li>
-                <li class="perfil-lista"><a href="#" class="nav-link">Regulamento</a></li>
-            
-            </ul>
-        </div>       
+          <button id="profileButton" class="button">
+            <span class="buttonText">Menu</span>
+          </button>
+          <ul id="profileDropdown" class="profile-dropdown menuDropdown">
+            <li class="perfil-lista">
+              <a href="pagina-inicial.html" class="nav-link">Página Inicial</a>
+            </li>
+            <li class="perfil-lista">
+              <a href="#" class="nav-link">Como funciona?</a>
+            </li>
+            <li class="perfil-lista">
+              <a href="selecionar-servico.html" class="nav-link">Serviços</a>
+            </li>
+            <li class="perfil-lista">
+              <a href="#" class="nav-link">Regulamento</a>
+            </li>
+          </ul>
+        </div>
         <div class="profile">
-            <button id="profileButton" class="button">
-                <img class="icon" src="assets/perfil.svg" alt="Ícone de perfil"><span class="profileText">Meu Perfil</span>
-            </button>
-            <ul id="profileDropdown" class="profile-dropdown">
-                <li class="perfil-lista"><a href="#">Meu cadastro</a></li>
-                <li class="perfil-lista"><a href="meuservico.html">Meus serviços</a></li>
-                <li class="perfil-lista"><a href="#">Minhas trocas</a></li>
-                <li class="perfil-lista"><a href="#">Favoritos</a></li>
-                <li class="perfil-lista"><a href="paginadecadastro.html">Sair</a></li>
-            </ul>
-        </div>         
-    </header>      
+          <button id="profileButton" class="button">
+            <img class="icon" src="assets/perfil.svg" alt="Ícone de perfil" />
+            <span class="profileText">Meu Perfil</span>
+          </button>
+          <ul id="profileDropdown" class="profile-dropdown">
+            <li class="perfil-lista"><a href="#">Meu cadastro</a></li>
+            <li class="perfil-lista">
+              <a href="meuservico.html">Meus serviços</a>
+            </li>
+            <li class="perfil-lista"><a href="#">Minhas trocas</a></li>
+            <li class="perfil-lista"><a href="#">Favoritos</a></li>
+            <li class="perfil-lista"><a href="paginadecadastro.html">Sair</a></li>
+          </ul>
+        </div>
+      </header>  
     <main>
-        <section>
-            <div class="imagem-luana"></div>
-            <p class="texto-baby-sister">BABY SISTER<br> BABÁ E CUIDADORA PARA ATÉ 2 CRIANÇAS.</p>
+        <section class="form-section">
+            <div class="service-image">
+                <img src="assets/luana.png" alt="Luana">
+            </div>
+            <div class="service-info">
+                <h1>BABYSITTER - BABÁ E CUIDADORA PARA ATÉ DUAS CRIANÇAS</h1>
+
+                <p class="service-hours"><strong>Horas:</strong> 1 hora</p>
+
+                <div class="service-details">             
+                    <p class="service-location">
+                      <img src="assets/localizacao.svg" alt="Localização" class="localizacao-icon"/>
+                      serviço presencial
+                    </p>
+                    <p class="service-category">
+                      <strong>Categoria:</strong> supervisão
+                    </p>
+                  </div>
+            </div>
         </section>
+            <section class="service-description">
 
-        <div class="imagem-descricao">
-            <img src="assets/desc.png" alt="Descrição" class="desc-imagem">
-        </div>
+                <p class="section-title">Descrição do serviço</p>
+                <p class="legenda">(a descrição é fornecida pelo usuário. A plataforma Banco de Tempo não se responsabiliza pelas informações descritas abaixo)</p>
+                
+                <p>Olá, meu nome é Laura, tenho 26 anos e moro em Sobral.</p>
+                    <p>Estou disponível para cuidar do seu filho(a) com todo carinho e dedicação.</p>
+                <p class="section-subtitle">O que eu faço:</p>
+                <ul class="service-list">
+                    <li>Brinco com a criança, proporcionando momentos de diversão e aprendizado.</li>
+                    <li>Preparo e ofereço refeições, garantindo uma alimentação saudável.</li>
+                    <li>Estimulo habilidades sociais e cognitivas através de atividades lúdicas.</li>
+                    <li>Todas as brincadeiras são sem tela, utilizando cadernos de pintura e lápis.</li>
+                    <li>Promovo e estimulo a fala e conversação, ajudando no desenvolvimento da linguagem.</li>
+                    <li>Cuido da limpeza após as refeições, mantendo o ambiente sempre organizado.</li>
+                </ul>
 
-        <div class="secao-avaliacoes">
-            <p>Avaliações sobre o serviço</p>
-        </div>
+                <p class="section-subtitle">O que não faço:</p>
 
-        <div class="avaliacao">
-            <img src="assets/av1.png" alt="Avaliação 1" class="avaliacao-imagem">
-        </div>
+                <ul class="service-list">
+                    <li>Não realizo faxina.</li>
+                    <li>Não ofereço reforço escolar.</li>
+                    <li>Importante: eu vou até sua casa, não é necessário levar a criança até mim.</li>
+                </ul>
+                <p class="section-subtitle">Estou à disposição para cuidar do seu pequeno(a) com muito amor e responsabilidade!</p>
+            </section>
+            <div class="review-text">
+                <p class="section-title">Avaliações sobre o serviço</p>
+            </div>
+            <section class="service-reviews">
+                <div class="review">
+                    <img  src="assets/avatar1.png" alt="Foto do cliente">
+                    <div class="review-content">
+                        <p>"Ela é super atenciosa e dá pra ver que realmente gosta de cuidar das crianças. 
+                          Sempre cria atividades divertidas e educativas, sabe lidar bem com as rotinas e é muito paciente. 
+                          As crianças se sentem super à vontade com ela, e dá pra confiar de olhos fechados. 
+                          Além disso, ela é bem responsável e organizada, o que ajuda bastante no dia a dia. 
+                          Uma ótima babá, que cuida com carinho e sabe equilibrar diversão e disciplina"</p>
+                        <p><strong>Marcela Silva</strong>, trocou este serviço em 2 de agosto de 2024</p>
+                    </div>
+                </div>
 
-        <div class="avaliacao">
-            <img src="assets/av2.png" alt="Avaliação 2" class="avaliacao-imagem">
-        </div>
+                <div class="review">
+                    <img src="assets/avatar2.png" alt="Foto do cliente">
+                    <div class="review-content">
+                        <p>"Luana tem sido incrível cuidando da minha filha. Ela é super atenciosa e sempre traz um ambiente tranquilo e divertido.
+                          Ela ajuda no desenvolvimento das habilidades sociais e cognitivas da minha filha, sempre com brincadeiras criativas e sem uso de telas. 
+                          O caderno de pintura e os lápis viraram os melhores amigos por aqui! Recomendo muito a Luana para quem procura uma cuidadora carinhosa e dedicada!"</p>
+                        <p><strong>Maria Júlia</strong>, trocou este serviço em 12 de maio de 2024</p>
+                    </div>
+                </div>
 
-        <div class="avaliacao">
-            <img src="assets/av3.png" alt="Avaliação 3" class="avaliacao-imagem">
-        </div>
+                <div class="review">
+                    <img src="assets/avatar3.png" alt="Foto do cliente">
+                    <div class="review-content">
+                        <p>"Ameeei a Luana! Sério, melhor babá que minha filha já teve! 
+                          Ela é super atenciosa, brinca muito com a minha filha e ainda alimenta direitinho"</p>
+                        <p><strong>Lídia Martins</strong>, trocou este serviço em 27 de abril de 2024</p>
+                    </div>
+                </div>
 
-        <div class="avaliacao">
-            <img src="assets/av4.png" alt="Avaliação 4" class="avaliacao-imagem">
-        </div>
-
-        <div class="trocar-servico">
-            <p>Trocar esse serviço</p>
+                <div class="review">
+                    <img src="assets/avatar4.png" alt="Foto do cliente">
+                    <div class="review-content">
+                        <p>"É uma excelente profissional. Sempre chega no horário combinado, é paciente e criativa.
+                          Confio nela de olhos fechados"</p>
+                        <p><strong>Jéssica Alcides</strong>, trocou este serviço em 4 de abril de 2024</p>
+                    </div>
+                </div>
+            </section>
+            <div class="button-container">
+              <button class="exchange-button">Trocar este serviço</button>
+            </div>
+            
         </div>
     </main>
     <footer>
-        <div class="footer-content">
-            <img src="assets/Logotipo.png" alt="Logo Banco de Tempo">
-            <p>Banco de Tempo - Projeto do TCC Mulheres in Tech - Turma 13 - 2024</p>
-            <BR>
-            <p><span class="highlight">Equipe de Desenvolvimento:</span><P> 
-            </P><a href="https://github.com/AnaCatalao" rel="nofollow">Ana Beatriz</a> - <a href="https://github.com/CarlaSa-Carla" rel="nofollow">Carla</a> - <a href="https://github.com/lorenaraquelolive" rel="nofollow">Lorena</a> - <a href="https://storyset.com/" rel="nofollow">Malunari</a> - <a href="https://github.com/DouradoGB" rel="nofollow">Marilu</a> - <a href="https://github.com/nicolemelo1" rel="nofollow">Nicole</a></p>
-            <p><span class="highlight">Design gráfico:</span></p>
-            <a href="https://www.behance.net/malunaris" rel="nofollow">Malunari Design Gráfico</a> - <a href="https://storyset.com/" rel="nofollow">StorySet</a> - <a href="https://www.freepik.com/" rel="nofollow">Freepik</a></p>
-        </div>
-        <div class="footer-bottom">
-            &copy; 2024 Banco do Tempo | Todos os direitos reservados
-        </div>
-    </footer>
+      <div class="footer-content">
+          <img src="assets/Logotipo.png" alt="Logo Banco de Tempo">
+          <p>Banco de Tempo - Projeto do TCC Mulheres in Tech - Turma 13 - 2024</p>
+          <BR>
+          <p><span class="highlight">Equipe de Desenvolvimento:</span><P> 
+          </P><a href="https://github.com/AnaCatalao" rel="nofollow">Ana Beatriz</a> - <a href="https://github.com/CarlaSa-Carla" rel="nofollow">Carla</a> - <a href="https://github.com/lorenaraquelolive" rel="nofollow">Lorena</a> - <a href="https://storyset.com/" rel="nofollow">Malunari</a> - <a href="https://github.com/DouradoGB" rel="nofollow">Marilu</a> - <a href="https://github.com/nicolemelo1" rel="nofollow">Nicole</a></p>
+          <p><span class="highlight">Design gráfico:</span></p>
+          <a href="https://www.behance.net/malunaris" rel="nofollow">Malunari Design Gráfico</a> - <a href="https://storyset.com/" rel="nofollow">StorySet</a> - <a href="https://www.freepik.com/" rel="nofollow">Freepik</a></p>
+      </div>
+      <div class="footer-bottom">
+          &copy; 2024 Banco do Tempo | Todos os direitos reservados
+      </div>
+  </footer>
 </body>
 </html>
