@@ -57,3 +57,22 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 });
 
+document.addEventListener("DOMContentLoaded", function() { 
+    const cadastro_modal = document.getElementById("cadastro_modal"); 
+    const cadastrobtn = document.getElementById("cadastrobtn");
+    const span = document.getElementsByClassName("close_cadastro")[0];
+
+    cadastrobtn.onclick = function() {
+        cadastro_modal.style.display = "block";
+    }
+
+    span.onclick = function() {
+        cadastro_modal.style.display = "none";
+    }
+
+    window.onclick = function(event) {
+        if (event.target == cadastro_modal) {
+            cadastro_modal.style.display = "none";
+        }
+    }
+});
