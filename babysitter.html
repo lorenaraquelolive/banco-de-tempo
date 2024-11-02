@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Banco de Tempo</title>
+    <title>Babysitter - Babá e cuidadora para até 2 crianças - Banco de Tempo</title>
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.ico" />
     <link rel="stylesheet" href="styles/estilo-babysitter.css">
     <link rel="stylesheet" href="styles/generalStyle.css">
     <link rel="stylesheet" href="styles/style-header.css">
@@ -68,13 +69,13 @@
     <main>
         <section class="form-section">
             <div class="service-image">
-                <img src="assets/luana.png" alt="Luana">
+                <img src="assets/babysitterservice.png" alt="Luana">
             </div>
             <div class="service-info">
                 <h1>BABYSITTER - BABÁ E CUIDADORA PARA ATÉ 2 CRIANÇAS</h1>
                 <p class="service-hours"><strong>Horas:</strong> 1 hora</p>
-                <p><strong>Fornecido por:</strong> <span class="nome-rosa">Luana Tavares</span></p>
-                <p class="legenda"><i>(Clique para ver o perfil)</i></p>
+                <p><strong>Fornecido por:</strong> <a href=""><span class="nome-rosa">Luana Tavares</span></a></p>
+                <p class="legenda">(Clique para ver o perfil)</p>
                 <div class="service-details">             
                     <p class="service-location">
                       <img src="assets/localizacao.svg" alt="Localização" class="localizacao-icon"/>
@@ -88,11 +89,11 @@
         </section>
             <section class="service-description">
 
-                <p class="section-title">Descrição do serviço</p>
+                <div class="dividerTitle"><p class="section-title">Descrição do Serviço</p></div>
                 <p class="legenda"><i>(a descrição é fornecida pelo usuário. A plataforma Banco de Tempo não se responsabiliza pelas informações descritas abaixo)</i></p>
                 
                 <div class="description">
-                  <p>Olá, meu nome é Laura, tenho 26 anos e moro em Sobral.</p>
+                  <p>Olá, meu nome é Luana, tenho 26 anos e moro em Sobral.</p>
                     <p>Estou disponível para cuidar do seu filho(a) com todo carinho e dedicação.</p>
                 <p class="section-subtitle">O que eu faço:</p>
                 <ul class="service-list">
@@ -115,9 +116,7 @@
                 </div>
                 
             </section>
-            <div class="review-text">
-                <p class="review-title">Avaliações sobre o serviço</p>
-            </div>
+            <div class="dividerTitle"><p class="section-title">Avaliações do Serviço</p></div>
             <section class="service-reviews">
                 <div class="review">
                     <img  src="assets/avatar1.png" alt="Foto do cliente">
@@ -127,7 +126,7 @@
                           As crianças se sentem super à vontade com ela, e dá pra confiar de olhos fechados. 
                           Além disso, ela é bem responsável e organizada, o que ajuda bastante no dia a dia. 
                           Uma ótima babá, que cuida com carinho e sabe equilibrar diversão e disciplina"</p>
-                        <p><strong>Marcela Silva</strong>, trocou este serviço em 2 de agosto de 2024</p>
+                        <p><strong><a href="">Marcela Silva</a></strong>, trocou este serviço em 2 de agosto de 2024</p>
                     </div>
                 </div>
 
@@ -137,7 +136,7 @@
                         <p>"Luana tem sido incrível cuidando da minha filha. Ela é super atenciosa e sempre traz um ambiente tranquilo e divertido.
                           Ela ajuda no desenvolvimento das habilidades sociais e cognitivas da minha filha, sempre com brincadeiras criativas e sem uso de telas. 
                           O caderno de pintura e os lápis viraram os melhores amigos por aqui! Recomendo muito a Luana para quem procura uma cuidadora carinhosa e dedicada!"</p>
-                        <p><strong>Maria Júlia</strong>, trocou este serviço em 12 de maio de 2024</p>
+                        <p><strong><a href="">Maria Júlia</a></strong>, trocou este serviço em 12 de maio de 2024</p>
                     </div>
                 </div>
 
@@ -146,7 +145,7 @@
                     <div class="review-content">
                         <p>"Ameeei a Luana! Sério, melhor babá que minha filha já teve! 
                           Ela é super atenciosa, brinca muito com a minha filha e ainda alimenta direitinho"</p>
-                        <p><strong>Lídia Martins</strong>, trocou este serviço em 27 de abril de 2024</p>
+                        <p><strong><a href="">Lídia Martins</a></strong>, trocou este serviço em 27 de abril de 2024</p>
                     </div>
                 </div>
 
@@ -155,7 +154,7 @@
                     <div class="review-content">
                         <p>"É uma excelente profissional. Sempre chega no horário combinado, é paciente e criativa.
                           Confio nela de olhos fechados"</p>
-                        <p><strong>Jéssica Alcides</strong>, trocou este serviço em 4 de abril de 2024</p>
+                        <p><strong><a href="">Jéssica Alcides</a></strong>, trocou este serviço em 4 de abril de 2024</p>
                     </div>
                 </div>
             </section>
@@ -165,8 +164,27 @@
             <div id="modal" class="modal">
               <div class="modal-content">
                 <span class="close">&times;</span>
-                <p>Entre em contato com a Luana para trocar seu serviço. 
-                  Número: 085 39482359842</p>
+                <div class="modalStructure">
+                  <img class="profilePicture" src="./assets/luana.jpg">
+                  
+                  <p><strong>Fornecido por:</strong> <a href=""><span class="nome-rosa">Luana Tavares</span></a></p>
+                <p class="legenda">(Clique para ver o perfil)</p>
+                </div>
+                <p>Entre em contato diretamente com <span class="nome-rosa">Luana Tavares</span> pelos meios de contato fornecidos. </p>
+                <div class="contactTable">
+                  <div class="contactInfo">
+                  <img class="contactIcons" src="./assets/whatsappIcon.png">
+                  <p>088 986343812</p>
+                </div>
+                <div class="contactInfo">
+                  <img class="contactIcons" src="./assets/phoneIcon.png">
+                  <p>088 986343812</p>
+                </div>
+                <div class="contactInfo">
+                  <img class="contactIcons" src="./assets/mailIcon.png">
+                  <p>luanatavares127@gmail.com</p>
+                </div>
+                </div>
               </div>
             </div>
         </div>
