@@ -47,16 +47,6 @@
   color: #e70d67;
 }
 
-.nav-link.active::after {
-  content: "";
-  height: 2px;
-  width: 150%;
-  background-color: #e70d67;
-  position: absolute;
-  bottom: -5px;
-  left: -25%;
-}
-
 .nav-link.active:hover::after {
   width: 150%;
   transition: width 0.3s ease;
