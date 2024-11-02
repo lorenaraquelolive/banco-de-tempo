@@ -113,10 +113,6 @@ input[type="radio"] {
   align-items: center;
   color: #333;
 }
-.servico-card {
-  text-decoration: none;
-  color: inherit;
-}
 
 .servico-card:hover {
   transform: scale(1.05);
@@ -170,6 +166,7 @@ input[type="radio"] {
 .localizacao {
   display: flex;
   align-items: center;
+  margin-top: 40px;
 }
 
 .servico-card .localizacao-icon {
