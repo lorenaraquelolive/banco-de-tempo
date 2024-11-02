@@ -1,276 +1,263 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-  <head>
-    <title>Todos os serviços - Banco de Tempo</title>
-    <link rel="icon" type="image/x-icon" href="./assets/favicon.ico" />
-    <link rel="stylesheet" href="styles/estilo-meuservico.css" />
-    <link rel="stylesheet" href="styles/style-header.css" />
-    <link rel="stylesheet" href="styles/generalStyle.css" />
-  </head>
-  <body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/generalStyle.css">
+    <link rel="stylesheet" href="styles/style-header.css">
+    <link rel="stylesheet" href="styles/styleAllServices.css">
+</head>
+<body>
     <header class="cabecalho">
-      <div class="coracao">
-        <img src="assets/Coração superior.png" alt="" class="coracao-img" />
-      </div>
-      <div class="logo">
-        <a href="https://banco-de-tempo.vercel.app/"><img src="assets/Logotipo.png" alt="Banco de Tempo" class="logo-img" /></a>
-      </div>
-      <nav class="nav">
-        <ul class="nav-list">
-          <li class="nav-item">
-            <a href="https://banco-de-tempo.vercel.app/" class="nav-link">Página Inicial</a>
-          </li>
-          <li class="nav-item">
-            <a href="https://banco-de-tempo.vercel.app/#howItWorks" class="nav-link">Como funciona?</a>
-          </li>
-          <li class="nav-item">
-            <a href="selecionar-servico.html" class="nav-link">Serviços</a>
-          </li>
-          <li class="nav-item"><a href="#" class="nav-link">Regulamento</a></li>
-        </ul>
-      </nav>
-      <div class="profile menuMobileButton">
-        <button id="profileButton" class="button">
-          <span class="buttonText">Menu</span>
-        </button>
-        <ul id="profileDropdown" class="profile-dropdown menuDropdown">
-          <li class="perfil-lista">
-            <a href="https://banco-de-tempo.vercel.app/" class="nav-link">Página Inicial</a>
-          </li>
-          <li class="perfil-lista">
-            <a href="https://banco-de-tempo.vercel.app/#howItWorks" class="nav-link">Como funciona?</a>
-          </li>
-          <li class="perfil-lista">
-            <a href="selecionar-servico.html" class="nav-link">Serviços</a>
-          </li>
-          <li class="perfil-lista">
-            <a href="#" class="nav-link">Regulamento</a>
-          </li>
-        </ul>
-      </div>
-      <div class="profile">
-        <button id="profileButton" class="button">
-          <img class="icon" src="assets/perfil.svg" alt="Ícone de perfil" />
-          <span class="profileText">Meu Perfil</span>
-        </button>
-        <ul id="profileDropdown" class="profile-dropdown">
-          <li class="perfil-lista"><a href="#">Meu cadastro</a></li>
-          <li class="perfil-lista">
-            <a href="meuservico.html">Meus serviços</a>
-          </li>
-          <li class="perfil-lista"><a href="#">Minhas trocas</a></li>
-          <li class="perfil-lista"><a href="#">Favoritos</a></li>
-          <li class="perfil-lista"><a href="paginadecadastro.html">Sair</a></li>
-        </ul>
-      </div>
-    </header>
-    <main>
-      <section id="servicos">
-        <h1>CONFIRA TODOS OS SERVIÇOS DISPONÍVEIS NA SUA REGIÃO</h1>
-        <div class="servico-container">
-          <div class="servico-card">
-            <img src="assets/culinaria.png" alt="Culinária" />
-            <h3>
-              Curso de culinária - aulas simples sobre alimentos domésticos
-              rotineiros
-            </h3>
-            <div class="container">
-              <p class="horas"><strong>Horas:</strong> 1 hora</p>
-              <p class="localizacao">
-                <img
-                  src="assets/localizacao.svg"
-                  alt="Localização"
-                  class="localizacao-icon"
-                />
-                serviço presencial
-              </p>
-              <p class="categoria">
-                <strong>Categoria:</strong> aprendizados de rotina
-              </p>
-            </div>
-          </div>
-
-          <div class="servico-card">
-            <img src="assets/passeio_cachorros.png" alt="Passeio de cachorro" />
-            <h3>
-              Passeio com cachorro - áreas externas da sua região com até 2
-              cachorros
-            </h3>
-            <div class="container">
-              <p class="horas"><strong>Horas:</strong> 1 hora</p>
-              <p class="localizacao">
-                <img
-                  src="assets/localizacao.svg"
-                  alt="Localização"
-                  class="localizacao-icon"
-                />
-                serviço presencial
-              </p>
-              <p class="categoria"><strong>Categoria:</strong> supervisão</p>
-            </div>
-          </div>
-
-          <div class="servico-card">
-            <img src="assets/croche.png" alt="Crochê" />
-            <h3>
-              Aulas de crochê para crianças - lições coletivas para até 5
-              crianças
-            </h3>
-            <div class="container">
-              <p class="horas"><strong>Horas:</strong> 1 hora</p>
-              <p class="localizacao">
-                <img
-                  src="assets/localizacao.svg"
-                  alt="Localização"
-                  class="localizacao-icon"
-                />
-                serviço presencial
-              </p>
-              <p class="categoria"><strong>Categoria:</strong> passatempos</p>
-            </div>
-          </div>
-
-          <div class="servico-card">
-            <img src="assets/informatica.png" alt="Informática" />
-            <h3>
-              Aula de informática básica para idosos - celulares e aplicativos
-              de banco
-            </h3>
-            <div class="container">
-              <p class="horas"><strong>Horas:</strong> 2 horas</p>
-              <p class="localizacao">
-                <img
-                  src="assets/localizacao.svg"
-                  alt="Localização"
-                  class="localizacao-icon"
-                />
-                serviço presencial
-              </p>
-              <p class="categoria">
-                <strong>Categoria:</strong> soluções em tecnologias
-              </p>
-            </div>
-          </div>
-
-          <div class="servico-card">
-            <img src="assets/identidade-visual.png" alt="Identidade Visual" />
-            <h3>
-              Identidade visual - um logotipo, paleta e demais informações
-            </h3>
-            <div class="container">
-              <p class="horas"><strong>Horas:</strong> 5 horas</p>
-              <p class="localizacao">
-                <img
-                  src="assets/localizacao.svg"
-                  alt="Localização"
-                  class="localizacao-icon"
-                />
-                serviço à distância
-              </p>
-              <p class="categoria">
-                <strong>Categoria:</strong> soluções em tecnologias
-              </p>
-            </div>
-          </div>
-
-          <div class="servico-card">
-            <img src="assets/curso-html.png" alt="Curso HTML" />
-            <h3>
-              Curso de HTML e CSS básicos para adultos - aulas para até 3
-              pessoas
-            </h3>
-            <div class="container">
-              <p class="horas"><strong>Horas:</strong> 3 horas</p>
-              <p class="localizacao">
-                <img
-                  src="assets/localizacao.svg"
-                  alt="Localização"
-                  class="localizacao-icon"
-                />
-                serviço presencial
-              </p>
-              <p class="categoria">
-                <strong>Categoria:</strong> soluções em tecnologias
-              </p>
-            </div>
-          </div>
-
-          <div class="servico-card" onclick="window.location.href='babysitter.html';" style="cursor: pointer;">
-            <img src="assets/babysitter.png" alt="Babysitter" />
-            <h3>Babysitter - babá e cuidadora para até 2 crianças</h3>
-            <div class="container">
-              <p class="horas"><strong>Horas:</strong> 1 hora</p>
-              <p class="localizacao">
-                <img
-                  src="assets/localizacao.svg"
-                  alt="Localização"
-                  class="localizacao-icon"
-                />
-                serviço presencial
-              </p>
-              <p class="categoria"><strong>Categoria:</strong> supervisão</p>
-            </div>
-          </div>
-
-          <div class="servico-card">
-            <img src="assets/penteados.png" alt="Penteados" />
-            <h3>
-              Curso de penteados infantis para meninas - acessórios e laços
-            </h3>
-            <div class="container">
-              <p class="horas"><strong>Horas:</strong> 1 hora</p>
-              <p class="localizacao">
-                <img
-                  src="assets/localizacao.svg"
-                  alt="Localização"
-                  class="localizacao-icon"
-                />
-                serviço presencial
-              </p>
-              <p class="categoria">
-                <strong>Categoria:</strong> aprendizados de rotina
-              </p>
-            </div>
-          </div>
-
-          <div class="servico-card">
-            <img src="assets/patins.png" alt="Patins" />
-            <h3>
-              Aulas de patins para adultos e crianças - lições para até 3
-              pessoas
-            </h3>
-            <div class="container">
-              <p class="horas"><strong>Horas:</strong> 1 hora</p>
-              <p class="localizacao">
-                <img
-                  src="assets/localizacao.svg"
-                  alt="Localização"
-                  class="localizacao-icon"
-                />
-                serviço presencial
-              </p>
-              <p class="categoria"><strong>Categoria:</strong> passatempos</p>
-            </div>
-          </div>
+        <div class="coracao">
+          <img src="assets/Coração superior.png" alt="" class="coracao-img" />
         </div>
-        <div class="button-container">
-          <button>Carregar mais serviços</button>
+        <div class="logo">
+          <a href="https://banco-de-tempo.vercel.app/"><img src="assets/Logotipo.png" alt="Banco de Tempo" class="logo-img" /></a>
         </div>
-      </section>
-    </main>
-    <footer>
-      <div class="footer-content">
-          <img src="assets/Logotipo.png" alt="Logo Banco de Tempo">
-          <p>Banco de Tempo - Projeto do TCC Mulheres in Tech - Turma 13 - 2024</p>
-          <BR>
-          <p><span class="highlight">Equipe de Desenvolvimento:</span><P> 
-          </P><a href="https://github.com/AnaCatalao" rel="nofollow">Ana Beatriz</a> - <a href="https://github.com/CarlaSa-Carla" rel="nofollow">Carla</a> - <a href="https://github.com/lorenaraquelolive" rel="nofollow">Lorena</a> - <a href="https://github.com/malunaridev" rel="nofollow">Malunari</a> - <a href="https://github.com/DouradoGB" rel="nofollow">Marilu</a> - <a href="https://github.com/nicolemelo1" rel="nofollow">Nicole</a></p>
-          <p><span class="highlight">Design gráfico:</span></p>
-          <a href="https://www.behance.net/malunaris" rel="nofollow">Malunari Design Gráfico</a> - <a href="https://storyset.com/" rel="nofollow">StorySet</a> - <a href="https://www.freepik.com/" rel="nofollow">Freepik</a></p>
-      </div>
-      <div class="footer-bottom">
-          &copy; 2024 Banco de Tempo | Todos os direitos reservados
-      </div>
-  </footer>
-  </body>
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="https://banco-de-tempo.vercel.app/" class="nav-link">Página Inicial</a>
+            </li>
+            <li class="nav-item">
+              <a href="https://banco-de-tempo.vercel.app/#howItWorks" class="nav-link">Como funciona?</a>
+            </li>
+            <li class="nav-item">
+              <a href="selecionar-servico.html" class="nav-link">Serviços</a>
+            </li>
+            <li class="nav-item"><a href="#" class="nav-link">Regulamento</a></li>
+          </ul>
+        </nav>
+        <div class="profile menuMobileButton">
+          <button id="profileButton" class="button">
+            <span class="buttonText">Menu</span>
+          </button>
+          <ul id="profileDropdown" class="profile-dropdown menuDropdown">
+            <li class="perfil-lista">
+              <a href="https://banco-de-tempo.vercel.app/" class="nav-link">Página Inicial</a>
+            </li>
+            <li class="perfil-lista">
+              <a href="https://banco-de-tempo.vercel.app/#howItWorks" class="nav-link">Como funciona?</a>
+            </li>
+            <li class="perfil-lista">
+              <a href="selecionar-servico.html" class="nav-link">Serviços</a>
+            </li>
+            <li class="perfil-lista">
+              <a href="#" class="nav-link">Regulamento</a>
+            </li>
+          </ul>
+        </div>
+        <div class="profile">
+          <button id="profileButton" class="button">
+            <img class="icon" src="assets/perfil.svg" alt="Ícone de perfil" />
+            <span class="profileText">Meu Perfil</span>
+          </button>
+          <ul id="profileDropdown" class="profile-dropdown">
+            <li class="perfil-lista"><a href="#">Meu cadastro</a></li>
+            <li class="perfil-lista">
+              <a href="meuservico.html">Meus serviços</a>
+            </li>
+            <li class="perfil-lista"><a href="#">Minhas trocas</a></li>
+            <li class="perfil-lista"><a href="#">Favoritos</a></li>
+            <li class="perfil-lista"><a href="paginadecadastro.html">Sair</a></li>
+          </ul>
+        </div>
+      </header>
+      <main>
+        <section id="servicos">
+            <h1 class="allServicesTitle">CONFIRA TODOS OS SERVIÇOS DISPONÍVEIS NA SUA REGIÃO</h1>
+            <div class="servico-container">
+              <div class="servico-card">
+                <img src="assets/culinaria.png" alt="Culinária" />
+                <h3>
+                  Curso de culinária - aulas simples sobre alimentos domésticos
+                  rotineiros
+                </h3>
+                <div class="container">
+                  <p class="horas"><strong>Horas:</strong> 1 hora</p>
+                  <p class="localizacao">
+                    <img
+                      src="assets/localizacao.svg"
+                      alt="Localização"
+                      class="localizacao-icon"
+                    />
+                    serviço presencial
+                  </p>
+                  <p class="categoria">
+                    <strong>Categoria:</strong> aprendizados de rotina
+                  </p>
+                </div>
+              </div>
+    
+              <div class="servico-card">
+                <img src="assets/passeio_cachorros.png" alt="Passeio de cachorro" />
+                <h3>
+                  Passeio com cachorro - áreas externas da sua região com até 2
+                  cachorros
+                </h3>
+                <div class="container">
+                  <p class="horas"><strong>Horas:</strong> 1 hora</p>
+                  <p class="localizacao">
+                    <img
+                      src="assets/localizacao.svg"
+                      alt="Localização"
+                      class="localizacao-icon"
+                    />
+                    serviço presencial
+                  </p>
+                  <p class="categoria"><strong>Categoria:</strong> supervisão</p>
+                </div>
+              </div>
+    
+              <div class="servico-card">
+                <img src="assets/croche.png" alt="Crochê" />
+                <h3>
+                  Aulas de crochê para crianças - lições coletivas para até 5
+                  crianças
+                </h3>
+                <div class="container">
+                  <p class="horas"><strong>Horas:</strong> 1 hora</p>
+                  <p class="localizacao">
+                    <img
+                      src="assets/localizacao.svg"
+                      alt="Localização"
+                      class="localizacao-icon"
+                    />
+                    serviço presencial
+                  </p>
+                  <p class="categoria"><strong>Categoria:</strong> passatempos</p>
+                </div>
+              </div>
+    
+              <div class="servico-card">
+                <img src="assets/informatica.png" alt="Informática" />
+                <h3>
+                  Aula de informática básica para idosos - celulares e aplicativos
+                  de banco
+                </h3>
+                <div class="container">
+                  <p class="horas"><strong>Horas:</strong> 2 horas</p>
+                  <p class="localizacao">
+                    <img
+                      src="assets/localizacao.svg"
+                      alt="Localização"
+                      class="localizacao-icon"
+                    />
+                    serviço presencial
+                  </p>
+                  <p class="categoria">
+                    <strong>Categoria:</strong> soluções em tecnologias
+                  </p>
+                </div>
+              </div>
+    
+              <div class="servico-card">
+                <img src="assets/identidade-visual.png" alt="Identidade Visual" />
+                <h3>
+                  Identidade visual - um logotipo, paleta e demais informações
+                </h3>
+                <div class="container">
+                  <p class="horas"><strong>Horas:</strong> 5 horas</p>
+                  <p class="localizacao">
+                    <img
+                      src="assets/localizacao.svg"
+                      alt="Localização"
+                      class="localizacao-icon"
+                    />
+                    serviço à distância
+                  </p>
+                  <p class="categoria">
+                    <strong>Categoria:</strong> soluções em tecnologias
+                  </p>
+                </div>
+              </div>
+    
+              <div class="servico-card">
+                <img src="assets/curso-html.png" alt="Curso HTML" />
+                <h3>
+                  Curso de HTML e CSS básicos para adultos - aulas para até 3
+                  pessoas
+                </h3>
+                <div class="container">
+                  <p class="horas"><strong>Horas:</strong> 3 horas</p>
+                  <p class="localizacao">
+                    <img
+                      src="assets/localizacao.svg"
+                      alt="Localização"
+                      class="localizacao-icon"
+                    />
+                    serviço presencial
+                  </p>
+                  <p class="categoria">
+                    <strong>Categoria:</strong> soluções em tecnologias
+                  </p>
+                </div>
+              </div>
+    
+              <div class="servico-card" onclick="window.location.href='babysitter.html';" style="cursor: pointer;">
+                <img src="assets/babysitter.png" alt="Babysitter" />
+                <h3>Babysitter - babá e cuidadora para até 2 crianças</h3>
+                <div class="container">
+                  <p class="horas"><strong>Horas:</strong> 1 hora</p>
+                  <p class="localizacao">
+                    <img
+                      src="assets/localizacao.svg"
+                      alt="Localização"
+                      class="localizacao-icon"
+                    />
+                    serviço presencial
+                  </p>
+                  <p class="categoria"><strong>Categoria:</strong> supervisão</p>
+                </div>
+              </div>
+    
+              <div class="servico-card">
+                <img src="assets/penteados.png" alt="Penteados" />
+                <h3>
+                  Curso de penteados infantis para meninas - acessórios e laços
+                </h3>
+                <div class="container">
+                  <p class="horas"><strong>Horas:</strong> 1 hora</p>
+                  <p class="localizacao">
+                    <img
+                      src="assets/localizacao.svg"
+                      alt="Localização"
+                      class="localizacao-icon"
+                    />
+                    serviço presencial
+                  </p>
+                  <p class="categoria">
+                    <strong>Categoria:</strong> aprendizados de rotina
+                  </p>
+                </div>
+              </div>
+    
+              <div class="servico-card">
+                <img src="assets/patins.png" alt="Patins" />
+                <h3>
+                  Aulas de patins para adultos e crianças - lições para até 3
+                  pessoas
+                </h3>
+                <div class="container">
+                  <p class="horas"><strong>Horas:</strong> 1 hora</p>
+                  <p class="localizacao">
+                    <img
+                      src="assets/localizacao.svg"
+                      alt="Localização"
+                      class="localizacao-icon"
+                    />
+                    serviço presencial
+                  </p>
+                  <p class="categoria"><strong>Categoria:</strong> passatempos</p>
+                </div>
+              </div>
+            </div>
+            <div class="button-container">
+              <button>Carregar mais serviços</button>
+            </div>
+          </section>
+      </main>
+</body>
 </html>
