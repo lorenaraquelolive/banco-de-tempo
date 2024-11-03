@@ -76,3 +76,24 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     }
 });
+
+
+document.addEventListener("DOMContentLoaded", function() { 
+    const perfil_modal = document.getElementById("perfil_modal"); 
+    const perfilbtn = document.getElementById("perfilbtn");
+    const span = document.getElementsByClassName("perfil_close")[0];
+
+    perfilbtn.onclick = function() {
+        perfil_modal.style.display = "flex";
+    }
+
+    span.onclick = function() {
+        perfil_modal.style.display = "none";
+    }
+
+    window.onclick = function(event) {
+        if (event.target == perfil_modal) {
+            perfil_modal.style.display = "none";
+        }
+    }
+});
