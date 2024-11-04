@@ -43,12 +43,43 @@
                 <img class="icon" src="assets/perfil.svg" alt="Ícone de perfil"> <span class="profileText">Meu Perfil</span>
             </button>
             <ul id="profileDropdown" class="profile-dropdown">
-                <li class="perfil-lista"><a href="#">Meu cadastro</a></li>
+                <li id = "cadastrobtn" class="perfil-lista"><a href="#">Meu cadastro</a></li>
                 <li class="perfil-lista"><a href="meuservico.html">Meus serviços</a></li>
                 <li class="perfil-lista"><a href="#">Minhas trocas</a></li>
                 <li class="perfil-lista"><a href="#">Favoritos</a></li>
                 <li class="perfil-lista"><a href="paginadecadastro.html">Sair</a></li>
             </ul>
+            <div id="cadastro_modal" class="cadastro_modal">
+              <div class="cadastro_content">
+                  <span class="close_cadastro" id="closeModalCadastro">&times;</span>
+                  <h2>Meu Cadastro</h2>
+                  <div class="profile-image">
+                      <img src="assets/robson.jpg" alt="Foto de Perfil">
+                      <button class="change-btn">Alterar</button>
+                  </div>
+                  
+                  <div class="form-group">
+                      <label>Nome:</label>
+                      <span class="editable" contenteditable="true">Robson</span>
+                  </div>
+                  
+                  <div class="form-group">
+                      <label>Email:</label>
+                      <span class="editable" contenteditable="true">robson@gmail.com</span>
+                  </div>
+                  
+                  <div class="form-group">
+                      <label>Telefone:</label>
+                      <span class="editable" contenteditable="true">+55 234 55 66 777</span>
+                  </div>
+                  
+                  <div class="form-group">
+                      <label>Senha:</label>
+                      <span class="editable" contenteditable="true">******** </span>
+                  </div>
+                  <button type="button" class="save-btn">Salvar</button>
+              </div>
+          </div>
         </div>         
     </header>
     <main>
@@ -116,5 +147,6 @@
             &copy; 2024 Banco de Tempo | Todos os direitos reservados
         </div>
     </footer>
+    <script src="app.js"></script>
   </body>
 </html>
