@@ -23,9 +23,26 @@
   font-size: 10px;
 }
 
+.presenceInfo {
+  margin-top: 30px;
+}
+.memberInfo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.verified {
+  height: 20px;
+}
 .nome-rosa {
   font-weight: 600;
   color: var(--cor-secundaria);
+}
+
+.timeOnline {
+  font-size: 13px;
+  display: block;
 }
 
 .service-image {
@@ -289,7 +306,7 @@
 }
 
 .full_profile {
-  margin: 20px 20px 5px 20px; 
+  margin: 20px 20px 5px 20px;
 }
 
 .profile_info {
@@ -299,7 +316,6 @@
   margin-top: 0;
   padding: 20px 0 5px 20px;
 }
-
 
 @media (max-width: 1200px) {
   .form-section {
