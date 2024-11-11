@@ -47,7 +47,7 @@ Essas tecnologias foram utilizadas para criar uma interface intuitiva e responsi
 
 - [**Ana Catalão**](https://github.com/AnaCatalao)
 - [**Carla Sá**](https://github.com/CarlaSa-Carla)
-- [**Lorena Mendonça**](https://github.com/lorena-mendonca)
+- [**Lorena Mendonça**](https://github.com/lorenaraquelolive)
 - [**Malunari Pinto**](https://github.com/malunaridev)
 - [**Marilu Dourado**](https://github.com/DouradoGB)
 - [**Nicole Melo**](https://github.com/nicolemelo1)
