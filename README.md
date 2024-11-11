@@ -14,7 +14,9 @@ grupo). Protótipo feito no Adobe Photoshop 2024, com conversão para Figma.
 
 ![README info](assets/readme3.png)
 
-Informações aqui
+<p align="center">
+  <img src="assets/readme5.png">
+</p>
 
 
 ![README info](assets/readme4.png)
