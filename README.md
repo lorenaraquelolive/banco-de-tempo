@@ -1,10 +1,10 @@
-<h1>
-  Banco de Tempo - TCC Mulheres in Tech
-</h1>
+<div align="center">
+   <img src="assets/Logotipo.png" alt="Logotipo do Banco de Tempo" style="width: 18em;">
+</div>
 
 ![README intro](assets/readme1.png)
 
-  O projeto do Banco de Tempo, trabalho de conclusão de curso da turma 13 do programa Mulheres in Tech, foi desenvolvido com o intuito de sintetizar os conhecimentos adquiridos ao longo da jornada de aprendizado proposta pelo programa.
+  O projeto do Banco de Tempo, trabalho de conclusão de curso da turma 13 do programa Mulheres in Tech da Fly, foi desenvolvido com o intuito de sintetizar os conhecimentos adquiridos ao longo da jornada de aprendizado proposta pelo programa.
 
   Banco de Tempo é uma plataforma onde pessoas podem trocar serviços e habilidades entre si, com o tempo como moeda. Este projeto é uma reinterpretação do conceito original do Banco de Tempo, com nova identidade visual e funcionalidades.
 
@@ -45,3 +45,4 @@ JavaScript : Interatividade na página — usado para criar menus dinâmicos.
 
 ![README info](assets/readme4.png)
 
+Ana Catalão - Carla Carlos Sá - Lorena Mendonça - Malunari Pinto - Marilu Dourado - Nicole Melo 
