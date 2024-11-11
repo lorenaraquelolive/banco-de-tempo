@@ -18,12 +18,11 @@ grupo). Protótipo feito no Adobe Photoshop 2024, com conversão para Figma.
 
 🖥️ **Telas Disponíveis**: 7 telas principais da aplicação implementadas.
 
+📋 **Modais Interativos**:  A interface possui 3 modais interativos para uma melhor experiência de navegação.
+
 ⏳ **Sistema de Troca de Tempo**: Permite que usuários registrem e troquem horas para diferentes tipos de serviços.
 
 👤 **Gestão de Perfil**: Cada usuário possui um perfil personalizado com informações de habilidades e tempo disponível para troca.
-
-📋 **Modais Interativos**:  A interface possui 3 modais interativos para uma melhor experiência de navegação.
-
 
 ![README info](assets/readme3.png)
 
