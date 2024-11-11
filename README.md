@@ -1,5 +1,5 @@
 <div align="center">
-   <img src="assets/Logotipo.png" alt="Logotipo do Banco de Tempo" style="width: 18em;">
+   <img src="assets/readme6.png" alt="Logotipo do Banco de Tempo" style="width: 18em;">
 </div>
 
 ![README intro](assets/readme1.png)
@@ -45,4 +45,11 @@ JavaScript : Interatividade na página — usado para criar menus dinâmicos.
 
 ![README info](assets/readme4.png)
 
-Ana Catalão - Carla Carlos Sá - Lorena Mendonça - Malunari Pinto - Marilu Dourado - Nicole Melo 
+- [**Ana Catalão**](https://github.com/AnaCatalao)
+- [**Carla Sá**](https://github.com/CarlaSa-Carla)
+- [**Lorena Mendonça**](https://github.com/lorena-mendonca)
+- [**Malunari Pinto**](https://github.com/malunaridev)
+- [**Marilu Dourado**](https://github.com/DouradoGB)
+- [**Nicole Melo**](https://github.com/nicolemelo1)
+
+  
